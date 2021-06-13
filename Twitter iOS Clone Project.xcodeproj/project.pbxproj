@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		A74E92BC26751F0D0021E03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92BB26751F0D0021E03E /* AppDelegate.swift */; };
 		A74E92BE26751F0D0021E03E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92BD26751F0D0021E03E /* SceneDelegate.swift */; };
-		A74E92C026751F0D0021E03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92BF26751F0D0021E03E /* ViewController.swift */; };
 		A74E92C326751F0D0021E03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74E92C126751F0D0021E03E /* Main.storyboard */; };
 		A74E92C526751F0D0021E03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E92C426751F0D0021E03E /* Assets.xcassets */; };
 		A74E92C826751F0D0021E03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74E92C626751F0D0021E03E /* LaunchScreen.storyboard */; };
+		A74E92D9267520680021E03E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92D8267520680021E03E /* MainTabController.swift */; };
+		A74E92DC267521980021E03E /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92DB267521980021E03E /* FeedController.swift */; };
+		A74E92DF267521D10021E03E /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92DE267521D10021E03E /* ExploreController.swift */; };
+		A74E92E2267521D90021E03E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92E1267521D90021E03E /* NotificationController.swift */; };
+		A74E92E5267521E60021E03E /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92E4267521E60021E03E /* ConversationController.swift */; };
+		A74E92E8267533EA0021E03E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92E7267533EA0021E03E /* Extentions.swift */; };
+		A74E92ED26753CE60021E03E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92EC26753CE60021E03E /* LoginController.swift */; };
+		A74E92F126753CF50021E03E /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92F026753CF50021E03E /* RegisterController.swift */; };
+		A74E92F4267543990021E03E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E92F3267543990021E03E /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A74E92B826751F0D0021E03E /* Twitter iOS Clone Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter iOS Clone Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74E92BB26751F0D0021E03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74E92BD26751F0D0021E03E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A74E92BF26751F0D0021E03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A74E92C226751F0D0021E03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A74E92C426751F0D0021E03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74E92C726751F0D0021E03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74E92C926751F0D0021E03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74E92D8267520680021E03E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		A74E92DB267521980021E03E /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		A74E92DE267521D10021E03E /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		A74E92E1267521D90021E03E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A74E92E4267521E60021E03E /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
+		A74E92E7267533EA0021E03E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		A74E92EC26753CE60021E03E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A74E92F026753CF50021E03E /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		A74E92F3267543990021E03E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		A74E92BA26751F0D0021E03E /* Twitter iOS Clone Project */ = {
 			isa = PBXGroup;
 			children = (
+				A74E92D626751FA70021E03E /* Model */,
+				A74E92D526751FA60021E03E /* View */,
+				A74E92D426751FA40021E03E /* ViewModel */,
+				A74E92D326751FA10021E03E /* Controller */,
+				A74E92D226751F9F0021E03E /* API */,
+				A74E92D026751F910021E03E /* Utils */,
 				A74E92BB26751F0D0021E03E /* AppDelegate.swift */,
 				A74E92BD26751F0D0021E03E /* SceneDelegate.swift */,
-				A74E92BF26751F0D0021E03E /* ViewController.swift */,
 				A74E92C126751F0D0021E03E /* Main.storyboard */,
 				A74E92C426751F0D0021E03E /* Assets.xcassets */,
 				A74E92C626751F0D0021E03E /* LaunchScreen.storyboard */,
 				A74E92C926751F0D0021E03E /* Info.plist */,
 			);
 			path = "Twitter iOS Clone Project";
+			sourceTree = "<group>";
+		};
+		A74E92D026751F910021E03E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A74E92E7267533EA0021E03E /* Extentions.swift */,
+				A74E92F3267543990021E03E /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A74E92D226751F9F0021E03E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A74E92D326751FA10021E03E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A74E92EB26753CD80021E03E /* Authentication */,
+				A74E92D8267520680021E03E /* MainTabController.swift */,
+				A74E92DB267521980021E03E /* FeedController.swift */,
+				A74E92DE267521D10021E03E /* ExploreController.swift */,
+				A74E92E1267521D90021E03E /* NotificationController.swift */,
+				A74E92E4267521E60021E03E /* ConversationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A74E92D426751FA40021E03E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A74E92D526751FA60021E03E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A74E92D626751FA70021E03E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A74E92EB26753CD80021E03E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A74E92EC26753CE60021E03E /* LoginController.swift */,
+				A74E92F026753CF50021E03E /* RegisterController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74E92C026751F0D0021E03E /* ViewController.swift in Sources */,
+				A74E92F126753CF50021E03E /* RegisterController.swift in Sources */,
+				A74E92E2267521D90021E03E /* NotificationController.swift in Sources */,
+				A74E92F4267543990021E03E /* Utilities.swift in Sources */,
 				A74E92BC26751F0D0021E03E /* AppDelegate.swift in Sources */,
+				A74E92DF267521D10021E03E /* ExploreController.swift in Sources */,
+				A74E92E8267533EA0021E03E /* Extentions.swift in Sources */,
+				A74E92ED26753CE60021E03E /* LoginController.swift in Sources */,
 				A74E92BE26751F0D0021E03E /* SceneDelegate.swift in Sources */,
+				A74E92D9267520680021E03E /* MainTabController.swift in Sources */,
+				A74E92E5267521E60021E03E /* ConversationController.swift in Sources */,
+				A74E92DC267521980021E03E /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
